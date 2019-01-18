@@ -689,8 +689,8 @@ input:-webkit-autofill {
     -webkit-box-shadow:0 0 0 1000px white inset
 }
 ::selection {
-    background:#444;
-    color:#fff
+    background:#9932CC;
+    color:#FF69B4
 }
 ::-moz-selection {
     background:#444;
@@ -1346,7 +1346,7 @@ a:hover,a:active {
 .yya {
     position:fixed;
     left:0;
-    background:rgba(255,255,255,.95);
+    background:#FF69B4;
     box-shadow:0 1px 40px -8px rgba(0,0,0,.5)
 }
 .gizle {
@@ -1355,7 +1355,7 @@ a:hover,a:active {
     z-index:9999
 }
 .site-header:hover {
-    background-color:#fff
+    background-color:#FF69B4
 }
 .sabit {
     top:0;
@@ -1466,21 +1466,23 @@ a:hover,a:active {
     position:relative;
     -webkit-transition:all 1s ease
 }
+/*顶部导航栏字体*/
 .site-top ul li a {
     padding:10px 0;
     display:inline-block;
     color:#666
 }
 .site-top ul li a:hover {
-    color:orange
+    color:#FFFFFF
 }
+/*顶部导航栏鼠标经过*/
 .site-top ul li a:after {
     content:"";
     display:block;
     position:absolute;
     bottom:-16px;
     height:6px;
-    background-color:#fe9600;
+    background-color:#FFFFFF;
     width:100%;
     max-width:0;
     transition:max-width .25s ease-in-out
@@ -1491,7 +1493,7 @@ a:hover,a:active {
     position:absolute;
     bottom:-21px;
     height:6px;
-    background-color:#fe9600;
+    background-color:#FFFFFF;
     width:100%;
     max-width:0;
     transition:max-width .25s ease-in-out
@@ -1663,7 +1665,7 @@ a:hover,a:active {
     color:#504e4e
 }
 .entry-title a:hover {
-    color:orange
+    color:#FFFFFF
 }
 .p-time {
     position:absolute;
@@ -2006,10 +2008,11 @@ i.iconfont.hotpost {
     -o-transition:all .2s ease-in-out;
     transition:all .2s ease-in-out
 }
+/*网站底部*/
 .site-footer {
     padding:2%;
-    background:rgba(255,255,255,.8);
-    max-width:800px;
+    background:#FF69B4;
+    /*max-width:800px;*/
     margin-left:auto;
     margin-right:auto
 }
@@ -3179,11 +3182,11 @@ span.sitename {
 }
 .link-title span.fake-title {
     padding-left:10px;
-    border-left:3px solid orange
+    border-left:3px solid #FF69B4
 }
 .links ul li:before {
     content:"";
-    background-color:orange;
+    background-color:#FF69B4;
     -webkit-transform:skew(45deg,0);
     transform:skew(45deg,0);
     width:0;
@@ -3197,7 +3200,7 @@ span.sitename {
 }
 .links ul li:hover {
     color:#27323a;
-    border:1px solid orange
+    border:1px solid #FF69B4
 }
 .links ul li:hover:before {
     width:180%
@@ -3946,7 +3949,7 @@ li.feature-2 {
     width: 100%;
     z-index: 0;
 }
-.blank {
+}.blank {
     padding-top:80px;
     background-color:rgba(255,255,255,1)
 }
@@ -5025,7 +5028,7 @@ i.iconfont.js-toggle-search.iconsearch {
     background-color:#eee
 }
 ::-webkit-scrollbar-thumb {
-    background-color:#69d2e7
+    background-color:#FF69B4
 }
 @keyframes poi-deg {
     0% {
@@ -5763,6 +5766,7 @@ button.botui-actions-buttons-button {
     padding-top:11px;
     text-decoration-line:none
 }
+/*页面左上角logo字体*/
 .logolink .sakurasono {
     background-color:rgba(255,255,255,.5);
     border-radius:5px;
@@ -5776,11 +5780,11 @@ button.botui-actions-buttons-button {
     width:auto
 }
 .logolink a:hover .sakurasono {
-    background-color:orange;
+    background-color:#9B30FF;
     color:#fff
 }
 .logolink a:hover .shironeko,.logolink a:hover rt {
-    color:orange
+    color:#9B30FF
 }
 .logolink.moe-mashiro a {
     color:#464646;
@@ -6292,7 +6296,7 @@ button.botui-actions-buttons-button {
 .changeSkin-gear i {
     font-size:20px
 }
-position:relative;
+}position:relative;
     z-index:99;
     cursor:pointer
 }
@@ -6934,7 +6938,7 @@ to {
 .scrollbar {
     position:fixed;
     top:0;
-    height:3px;
+    height:8px;
     background:#bebebe;
     transiton-property:width,background;
     transition-duration:1s,1s;
