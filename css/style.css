@@ -924,7 +924,7 @@ html {
     box-sizing:inherit
 }
 body {
-    background:#fff;
+    background:#FFFFFF;
     background-attachment:fixed;
     cursor:url(https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/cursor/normal.cur),auto
 }
@@ -1470,7 +1470,7 @@ a:hover,a:active {
 .site-top ul li a {
     padding:10px 0;
     display:inline-block;
-    color:#666
+    color:#FFFFFF
 }
 .site-top ul li a:hover {
     color:#FFFFFF
@@ -4185,7 +4185,7 @@ li.feature-2 {
     color:#999
 }
 i.iconfont.js-toggle-search.iconsearch {
-    color:#666;
+    color:#FFFFFF;
     cursor:pointer;
     font-size:26px;
     -webkit-transition:all 300ms ease-in-out;
@@ -5016,7 +5016,7 @@ i.iconfont.js-toggle-search.iconsearch {
     margin-bottom:20px
 }
 }::-webkit-scrollbar {
-    width:6px;
+    width:12px;
     height:6px;
     background-color:#eee
 }
@@ -5770,7 +5770,7 @@ button.botui-actions-buttons-button {
 .logolink .sakurasono {
     background-color:rgba(255,255,255,.5);
     border-radius:5px;
-    color:#464646;
+    color:#FF0000;
     height:auto;
     line-height:25px;
     margin-right:0;
@@ -5787,7 +5787,7 @@ button.botui-actions-buttons-button {
     color:#9B30FF
 }
 .logolink.moe-mashiro a {
-    color:#464646;
+    color:#FFFFFF;
     float:left;
     font-size:28px;
     font-weight:800;
@@ -7178,6 +7178,7 @@ to {
     height:160px;
     width:257px
 }
+/*startdash部分*/
 .the-feature.from_left_and_right {
     position:relative;
     height:160px;
@@ -7215,11 +7216,11 @@ to {
 }
 .the-feature.from_left_and_right .info h3 {
     text-transform:uppercase;
-    color:#fff;
+    color:#FFFFFF;
     text-align:center;
     font-size:17px;
     padding:10px;
-    background:#111;
+    background:#FF69B4;
     margin:30px 0 0 0;
     -webkit-transition:all .35s ease-in-out;
     -moz-transition:all .35s ease-in-out;
@@ -7231,10 +7232,10 @@ to {
     transform:translateX(-100%)
 }
 .the-feature.from_left_and_right .info p {
-    font-style:italic;
+    /*font-style:italic;*/
     font-size:12px;
     position:relative;
-    color:#bbb;
+    color:#9B30FF;
     padding:20px 20px 20px;
     text-align:center;
     -webkit-transition:all .35s .1s linear;
