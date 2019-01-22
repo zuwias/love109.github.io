@@ -1405,8 +1405,8 @@ a:hover,a:active {
 }
 .site-top .lower-cantiner {
     position:absolute;
-    left:50%;
-    min-width:758.4px;
+    left:56%;
+    min-width:950px;
     pointer-events:none
 }
 .site-top .lower {
@@ -1539,15 +1539,16 @@ a:hover,a:active {
     top:16px;
     -webkit-transform:rotateZ(-45deg)
 }
+/*顶部下拉栏*/
 .lower li ul {
     display:none;
     opacity:1;
     position:absolute;
-    background:#fff;
+    background:#FF69B4;
     padding:10px;
     top:46px;
     right:-13px;
-    width:80px;
+    width:130px;
     text-align:center;
     z-index:9999;
     border-radius:5px;
