@@ -509,7 +509,7 @@ function code_highlight_style() {
             'autocapitalize': 'off',
             'spellcheck': 'false',
             'contenteditable': 'false',
-            'design': 'by Mashiro'
+            'design': 'by hojun'
         }
         var ele_name = $('pre:eq(' + i + ')')[0].children[0].className;
         var lang = ele_name.substr(0, ele_name.indexOf(" ")).replace('language-', '');
@@ -526,20 +526,18 @@ function code_highlight_style() {
     $('pre code').each(function (i, block) {
         hljs.highlightBlock(block);
     });
-    for (var i = 0; i < $('pre').length; i++) {
+    for (var i = 0; i < $('article pre').length; i++) {
         gen_top_bar(i);
     }
-    hljs.initLineNumbersOnLoad();
     $('pre').on('click', function (e) {
-        if (e.target !== this) return;
         $(this).toggleClass('code-block-fullscreen');
         $('html').toggleClass('code-block-fullscreen-html-scroll');
     });
+    hljs.initLineNumbersOnLoad();
 }
 try {
     code_highlight_style();
 } catch (e) {}
-
 function attach_image() {
     $('#upload-img-file').change(function () {
         if (this.files.length > 10) {
@@ -960,9 +958,9 @@ var pjaxInit = function () {
     if ($("div").hasClass("aplayer")) {
         reloadHermit();
     }
-    if ($("div").hasClass("popcontainer")) {
-        loadBotui();
-    }
+    // if ($("div").hasClass("popcontainer")) {
+    //     loadBotui();
+    // }
     try {
         reload_show_date_time();
     } catch (e) {}
@@ -1097,12 +1095,12 @@ function grin(tag, type, before, after) {
         myField.focus();
     }
 }
-if ($("div").hasClass("popcontainer")) {
-    loadBotui();
-}
-$("bot-ui").click(function () {
-    loadBotui();
-});
+// if ($("div").hasClass("popcontainer")) {
+//     loadBotui();
+// }
+// $("bot-ui").click(function () {
+//     loadBotui();
+// });
 
 function add_copyright() {
     document.body.addEventListener("copy", function (e) {
@@ -1276,18 +1274,18 @@ function get_poem(poem_ele, info_ele) {
     xhr.send();
 }
 
-function loadBotui() {
-    if ($('div').hasClass('popcontainer')) {
-        if (mashiro_global.variables.has_bot_ui) {
-            bot_ui_ini();
-        } else {
-            $.getScript('https://cdn.jsdelivr.net/gh/moezx/cdn@latest/js/botui/botui.js', function () {
-                bot_ui_ini();
-                mashiro_global.variables.has_bot_ui = true;
-            });
-        }
-    }
-}
+// function loadBotui() {
+//     if ($('div').hasClass('popcontainer')) {
+//         if (mashiro_global.variables.has_bot_ui) {
+//             bot_ui_ini();
+//         } else {
+//             $.getScript('https://cdn.jsdelivr.net/gh/moezx/cdn@latest/js/botui/botui.js', function () {
+//                 bot_ui_ini();
+//                 mashiro_global.variables.has_bot_ui = true;
+//             });
+//         }
+//     }
+// }
 
 function mail_me() {
     var mail = "mailto:" + mashiro_option.email_name + "@" + mashiro_option.email_domain;
