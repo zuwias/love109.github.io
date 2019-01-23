@@ -3,9 +3,9 @@ table, td, th { border-collapse:collapse; }
 ul, li { list-style:none; }
 h1, h2, h3, h4 { font-size:100%; }
 img, input, textarea { vertical-align: middle; border:0; }
-a { text-decoration:none; color:#787878; outline:none; }
+a { text-decoration:none; color:#FF69B4; outline:none; }
 a:hover { text-decoration:underline; }
-body { font:12px/1.5 "΢���ź�","tahoma", Verdana, Geneva, sans-serif; color:#666; position:relative;}
+body { font:17px/1.5 "΢���ź�","tahoma", Verdana, Geneva, sans-serif; color:#666; position:relative;}
 .clearfix:after{content:" "; display:block; height:0; clear:both; visibility:hidden;}
 .clearfix{zoom:1;}
 .fl { float:left;}
@@ -34,18 +34,18 @@ a { outline:none; } /*���firefox��*/
 .history-date ul li dl { float:left; padding-left:41px; margin-top:-5px; font-family:΢���ź�;}
 .history-date ul li dl dt { font:20px/22px ΢���ź�; color:#737373; }
 .history-date ul li dl dt span { display:block; color:#787878; font-size:12px;}
-.history-date ul li.green h3 { color:#1db702;}
-.history-date ul li.green h3 span { color:#a8dda3; }
-.history-date ul li.green dl { margin-top:-8px;}
-.history-date ul li.green dl dt { font-size:30px; line-height:28px;}
-.history-date ul li.green dl dt a { /*background:url(../images/icon09.gif) no-repeat 0 0; width:19px; height:16px;*/ display:inline-block; *display:inline; zoom:1; overflow:hidden; vertical-align: middle; margin-left:12px;}
-.history-date ul li.green dl dd { padding-top:20px; display:none;}
-.history-date ul li.green dl dd img { float:left;}
-.history-date ul li.green dl dd p { overflow:hidden; zoom:1; line-height:21px; color:#787878;}
+.history-date ul li.pink h3 { color:#FF69B4;}
+.history-date ul li.pink h3 span { color:#FF69B4; }
+.history-date ul li.pink dl { margin-top:-8px;}
+.history-date ul li.pink dl dt { font-size:30px; line-height:28px;}
+.history-date ul li.pink dl dt a { /*background:url(../images/icon09.gif) no-repeat 0 0; width:19px; height:16px;*/ display:inline-block; *display:inline; zoom:1; overflow:hidden; vertical-align: middle; margin-left:12px;}
+.history-date ul li.pink dl dd { padding-top:20px; display:none;}
+.history-date ul li.pink dl dd img { float:left;}
+.history-date ul li.pink dl dd p { overflow:hidden; zoom:1; line-height:21px; color:#787878;}
 
 .history-date h2.first .more-history {font-size: 16px; background: transparent; margin-left: 30px;}
 .history-date h2.first .more-history:hover {text-decoration: underline;}
 
 *body .history-date ul li dl dt {_font-size:12px !important; _font-weight:bold;}
 *body .history-date ul li dl dt span {_font-weight:normal !important;}
-*body .history-date ul li.green dl dt a {_background:transparent !important; *background:transparent !important;*font-size:12px !important; _font-weight:normal !important;}
+*body .history-date ul li.pink dl dt a {_background:transparent !important; *background:transparent !important;*font-size:12px !important; _font-weight:normal !important;}

@@ -1021,7 +1021,7 @@ a:focus {
 }
 a:hover,a:active {
     outline:0;
-    color:orange
+    color:#FF0000
 }
 .site-top {
     width:100%;
