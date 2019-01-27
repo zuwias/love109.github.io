@@ -3724,7 +3724,7 @@ a.page-numbers {
     line-height:1
 }
 .siren-checkbox-radio:checked+.siren-checkbox-radioInput:after {
-    background-color:#fe9600;
+    background-color:#FF69B4;
     border-radius:100%;
     content:"";
     display:block;
