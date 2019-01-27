@@ -850,13 +850,14 @@ blockquote {
     padding:30px 60px;
     position:relative
 }
+/*引用颜色*/
 blockquote:before {
     content:"\f10d" !important;
     font-size:3rem;
     position:absolute;
     top:-25px;
     left:12px;
-    color:orange;
+    color:#FF69B4;
     font-family:FontAwesome
 }
 blockquote:after {
@@ -865,7 +866,7 @@ blockquote:after {
     position:absolute;
     bottom:-25px;
     right:-5px;
-    color:orange;
+    color:#FF69B4;
     font-family:FontAwesome
 }
 blockquote p {
@@ -935,9 +936,9 @@ blockquote,q {
     quotes:"" ""
 }
 hr {
-    background-color:#ccc;
+    background-color:#FF69B4;
     border:0;
-    height:1px;
+    height:10px;
     margin-bottom:1.5em
 }
 ul,ol {
@@ -1223,9 +1224,10 @@ a:hover,a:active {
     overflow:hidden;
     margin:0 auto
 }
+/*导航栏到顶后的颜色*/
 .pattern-center-blank {
     padding-top:75px;
-    background-color:#fff
+    background-color:#FF69B4
 }
 @media(max-width:860px) {
     .pattern-center-sakura {
@@ -2003,7 +2005,7 @@ i.iconfont.hotpost {
 .navigator i:hover {
     color:#fff;
     background:orange;
-    border:2px solid orange;
+    border:2px solid #FF69B4;
     -webkit-transition:all .2s ease-in-out;
     -moz-transition:all .2s ease-in-out;
     -o-transition:all .2s ease-in-out;
@@ -2023,10 +2025,10 @@ i.iconfont.hotpost {
     color:#FFFFFF
 }
 .site-info a {
-    color:#9B30FF
+    color:#FFFFFF
 }
 .site-info a:hover {
-    color:orange
+    color:#9B30FF
 }
 .footertext p {
     margin-bottom:8px
@@ -2149,17 +2151,12 @@ h1.entry-title {
     text-transform:uppercase
 }
 .entry-header h1.entry-title:before {
-    content:" {
-    ";
-    color:#f8ba0b;
+    color: #f8ba0b;
     font-size:1.5em;
     margin-right:6px;
     vertical-align:sub
 }
 .entry-header h1.entry-title:after {
-    content:"
-}
-";
     color:#f8ba0b;
     font-size:1.5em;
     margin-left:6px;
@@ -2180,10 +2177,10 @@ h1.entry-title {
     background:none
 }
 .entry-content hr:before {
-    content:'...';
+    content:'_____________________';
     display:inline-block;
     margin-left:.6em;
-    color:rgba(0,0,0,.8);
+    color:#FF69B4;
     position:relative;
     top:-30px;
     font-size:28px;
@@ -4302,7 +4299,7 @@ i.iconfont.js-toggle-search.iconsearch {
 }
 .s-search input {
     font-size:1rem;
-    background:#none;
+    background:none;
     padding:12px 24px 12px 64px;
     width:100%;
     outline:0;
