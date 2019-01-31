@@ -2291,13 +2291,13 @@ h1.page-title.mb- {
     padding:20px 0;
     border-bottom:1px dashed #ddd;
     border-top:1px dashed #ddd;
-    margin-top:30px;
+    margin-top:60px;
     height:82px
 }
 .post-lincenses {
     text-align:center;
-    padding-bottom:5px;
-    font-size:14px
+    padding-bottom:0;
+    font-size:16px
 }
 .post-lincenses a:hover {
     color:#888
@@ -2326,10 +2326,10 @@ h1.page-title.mb- {
 }
 .post-like a {
     color:#9fe0dd;
-    font-size:13px
+    font-size:20px
 }
 .post-like i {
-    font-size:13px
+    font-size:18px
 }
 .post-like a.done {
     cursor:not-allowed
@@ -2379,7 +2379,7 @@ h1.page-title.mb- {
     color:orange
 }
 .post-share .show-share {
-    margin-left:10px;
+    margin-left:100px;
     cursor:pointer;
     opacity:.6;
     float:right;

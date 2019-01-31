@@ -434,11 +434,10 @@ function imgError(ele, type) {
         ele.src = 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.4/img/other/default_gavatar.jpg';
         break;
     case 3:
-        
-        ele.src = 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.4/img/other/image-404.png';
+        ele.src = 'https://i.imgur.com/lhEs3BX.jpg';
         break;
     default:
-        ele.src = 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.4/img/other/image-404.png';
+        ele.src = 'https://i.imgur.com/lhEs3BX.jpg';
     }
 }
 mashiro_global.post_list_show_animation = new function () {
@@ -799,16 +798,16 @@ $(document).ready(function () {
 });
 
 function nextBG() {
-    $(".centerbg").css("background-image", 'url("https://cdn.jsdelivr.net/gh/honjun/cdn@1.4/img/cover/(' + Math.abs(bgn%8) + ').jpg.webp")');
+    $(".centerbg").css("background-image", 'url("/images/cover/(' + Math.abs(bgn%8) + ').jpg.webp")');
     bgn = bgn + 1;
 }
 
 function preBG() {
     bgn = bgn - 1;
-    $(".centerbg").css("background-image", 'url("https://cdn.jsdelivr.net/gh/honjun/cdn@1.4/img/cover/(' + Math.abs(bgn%8) + ').jpg.webp")');
+    $(".centerbg").css("background-image", 'url("/images/cover/(' + Math.abs(bgn%8) + ').jpg.webp")');
 }
 $(document).ready(function () {
-    $(".centerbg").css("background-image", 'url("https://cdn.jsdelivr.net/gh/honjun/cdn@1.4/img/cover/(' + bgn + ').jpg.webp")');
+    $(".centerbg").css("background-image", 'url("/images/cover/(' + bgn + ').jpg.webp")');
     $("#bg-next").click(function () {
         nextBG();
     });
