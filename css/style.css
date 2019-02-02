@@ -2395,7 +2395,7 @@ h1.page-title.mb- {
 .post-squares {
     overflow:hidden;
     width:100%;
-    margin:55px 0;
+    margin:22px 0;
     background:#000
 }
 .post-squares .background {
@@ -2544,7 +2544,7 @@ h1.page-title.mb- {
     height:250px
 }
 .author-profile {
-    padding:30px 12.78%;
+    padding:15px 12.78%;
     text-align:center
 }
 .author-profile .info {

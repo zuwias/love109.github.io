@@ -3,6 +3,7 @@
     src:url("https://cdn.jsdelivr.net/gh/honjun/cdn@1.4/fonts/sharejs/iconfont.eot?#iefix") format("embedded-opentype"),url("https://cdn.jsdelivr.net/gh/honjun/cdn@1.4/fonts/sharejs/iconfont.woff") format("woff"),url("https://cdn.jsdelivr.net/gh/honjun/cdn@1.4/fonts/sharejs/iconfont.ttf") format("truetype"),url("https://cdn.jsdelivr.net/gh/honjun/cdn@1.4/fonts/sharejs/iconfont.svg#iconfont") format("svg")
 }
 .social-share{
+    line-height:120px;
     text-align:center;
     font-family:"socialshare" !important;
     font-size:16px;
@@ -75,22 +76,26 @@
     transition:background 0.6s ease-out 0s
 }
 .social-share .social-share-icon:hover{
-    background:#666;color:#fff
+    background:#666;
+    color:#fff
 }
 .social-share .icon-weibo{
-    color:#ff763b;border-color:#ff763b
+    color:#ff763b;
+    border-color:#ff763b
 }
 .social-share .icon-weibo:hover{
     background:#ff763b
 }
 .social-share .icon-tencent{
-    color:#56b6e7;border-color:#56b6e7
+    color:#56b6e7;
+    border-color:#56b6e7
 }
 .social-share .icon-tencent:hover{
     background:#56b6e7
 }
 .social-share .icon-qq{
-    color:#56b6e7;border-color:#56b6e7
+    color:#56b6e7;
+    border-color:#56b6e7
 }
 .social-share .icon-qq:hover{
     background:#56b6e7
@@ -103,13 +108,15 @@
     background:#FDBE3D
 }
 .social-share .icon-douban{
-    color:#33b045;border-color:#33b045
+    color:#33b045;
+    border-color:#33b045
 }
 .social-share .icon-douban:hover{
     background:#33b045
 }
 .social-share .icon-linkedin{
-    color:#0077B5;border-color:#0077B5
+    color:#0077B5;
+    border-color:#0077B5
 }
 .social-share .icon-linkedin:hover{
     background:#0077B5
@@ -122,13 +129,15 @@
     background:#44619D
 }
 .social-share .icon-google{
-    color:#db4437;border-color:#db4437
+    color:#db4437;
+    border-color:#db4437
 }
 .social-share .icon-google:hover{
     background:#db4437
 }
 .social-share .icon-twitter{
-    color:#55acee;border-color:#55acee
+    color:#55acee;
+    border-color:#55acee
 }
 .social-share .icon-twitter:hover{
     background:#55acee
@@ -152,7 +161,7 @@
     display:none;
     border:1px solid #eee;
     position:absolute;
-    z-index:9;
+    z-index:9999;
     top:-205px;
     left:-84px;
     width:200px;
