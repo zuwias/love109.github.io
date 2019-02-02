@@ -1,6 +1,6 @@
 const ap = new APlayer({
     container: document.getElementById('aplayer'),
-    autoplay: true, //自动播放
+    autoplay: false, //自动播放
     theme: '#FF69B4', //主题色
     loop: 'all', //音频循环播放, 可选值: 'all'全部循环, 'one'单曲循环, 'none'不循环
     order: 'list', //音频循环顺序, 可选值: 'list'列表循环, 'random'随机循环
