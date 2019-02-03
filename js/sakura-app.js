@@ -425,13 +425,13 @@ function imgError(ele, type) {
     switch (type) {
     case 1:
         if (ele.src.includes("https://cn.gravatar.com/avatar")) {
-            ele.src = ele.src.replace("https://cn.gravatar.com/avatar/", "https://cdn.jsdelivr.net/gh/honjun/cdn@1.4/img/other/gravatar.jpg");
+            ele.src = ele.src.replace("https://cn.gravatar.com/avatar/", "https://cdn.jsdelivr.net/gh/honjun/cdn@1.5/img/other/gravatar.jpg");
         } else {
-            ele.src = 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.4/img/other/default_avatar.jpg';
+            ele.src = 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.5/img/other/default_avatar.jpg';
         }
         break;
     case 2:
-        ele.src = 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.4/img/other/default_gavatar.jpg';
+        ele.src = 'https://cdn.jsdelivr.net/gh/honjun/cdn@1.5/img/other/default_gavatar.jpg';
         break;
     case 3:
         ele.src = 'https://i.imgur.com/lhEs3BX.jpg';
@@ -673,7 +673,7 @@ function checkBgImgCookie() {
         $('#banner_wave_2').addClass('banner_wave_hide_fit_skin');
     }
     if (bgurl != "") {
-        if (bgurl == "https://cdn.jsdelivr.net/gh/honjun/cdn@1.4/img/themebg/sakura.png" || bgurl == "https://cdn.jsdelivr.net/gh/honjun/cdn@1.4/img/themebg/plaid.jpg" || bgurl == "https://cdn.jsdelivr.net/gh/honjun/cdn@1.4/img/themebg/star.png" || bgurl == "https://cdn.jsdelivr.net/gh/honjun/cdn@1.4/img/themebg/point.png" || bgurl == "https://cdn.jsdelivr.net/gh/honjun/cdn@1.4/img/themebg/little-monster.png") {
+        if (bgurl == "https://cdn.jsdelivr.net/gh/honjun/cdn@1.5/img/themebg/sakura.png" || bgurl == "https://cdn.jsdelivr.net/gh/honjun/cdn@1.5/img/themebg/plaid.jpg" || bgurl == "https://cdn.jsdelivr.net/gh/honjun/cdn@1.5/img/themebg/star.png" || bgurl == "https://cdn.jsdelivr.net/gh/honjun/cdn@1.5/img/themebg/point.png" || bgurl == "https://cdn.jsdelivr.net/gh/honjun/cdn@1.5/img/themebg/little-monster.png") {
             mashiro_global.variables.skinSecter = true;
             mashiro_global.variables.isNight = false;
             $("#night-mode-cover").css("visibility", "hidden");
@@ -740,11 +740,11 @@ $(document).ready(function () {
             setCookie("bgImgSetting", url, 30);
         });
     }
-    changeBG("#sakura-bg", "https://cdn.jsdelivr.net/gh/honjun/cdn@1.4/img/themebg/sakura.png");
-    changeBG("#gribs-bg", "https://cdn.jsdelivr.net/gh/honjun/cdn@1.4/img/themebg/plaid.jpg");
-    changeBG("#pixiv-bg", "https://cdn.jsdelivr.net/gh/honjun/cdn@1.4/img/themebg/star.png");
-    changeBG("#KAdots-bg", "https://cdn.jsdelivr.net/gh/honjun/cdn@1.4/img/themebg/point.png");
-    changeBG("#totem-bg", "https://cdn.jsdelivr.net/gh/honjun/cdn@1.4/img/themebg/little-monster.png");
+    changeBG("#sakura-bg", "https://cdn.jsdelivr.net/gh/honjun/cdn@1.5/img/themebg/sakura.png");
+    changeBG("#gribs-bg", "https://cdn.jsdelivr.net/gh/honjun/cdn@1.5/img/themebg/plaid.jpg");
+    changeBG("#pixiv-bg", "https://cdn.jsdelivr.net/gh/honjun/cdn@1.5/img/themebg/star.png");
+    changeBG("#KAdots-bg", "https://cdn.jsdelivr.net/gh/honjun/cdn@1.5/img/themebg/point.png");
+    changeBG("#totem-bg", "https://cdn.jsdelivr.net/gh/honjun/cdn@1.5/img/themebg/little-monster.png");
     changeBGnoTrans("#bing-bg", "https://api.shino.cc/bing/");
     $(".skin-menu #white-bg").click(function () {
         mashiro_global.variables.skinSecter = false;
@@ -762,7 +762,7 @@ $(document).ready(function () {
     $(".skin-menu #dark-bg").click(function () {
         mashiro_global.variables.skinSecter = true;
         mashiro_global.variables.isNight = true;
-        $("body").css("background-image", "url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.4/img/other/starry_sky.png)");
+        $("body").css("background-image", "url(https://cdn.jsdelivr.net/gh/honjun/cdn@1.5/img/other/starry_sky.png)");
         $(".blank").css("background-color", "rgba(255,255,255,.8)");
         $("#night-mode-cover").css("visibility", "visible");
         $(".pattern-center").removeClass('pattern-center').addClass('pattern-center-sakura');
@@ -1324,9 +1324,7 @@ var currentFontIsUbuntu = true;
 //     }
 // }
 mashiro_global.ini.normalize();
-if (window.location.hostname == "lovelive.2heng.xin") {
-    Poi.ajaxurl = Poi.ajaxurl.replace('//2heng.xin', '');
-}
+
 var home = location.href,
     s = $('#bgvideo')[0],
     Siren = {
@@ -1393,7 +1391,7 @@ var home = location.href,
             });
             var t = Poi.movies.name.split(","),
                 _t = t[Math.floor(Math.random() * t.length)];
-            $('#bgvideo').attr('src', Poi.movies.url + '/' + _t + '.mp4');
+            $('#bgvideo').attr('src', Poi.movies.url + '/' + _t);
             $('#bgvideo').attr('video-name', _t);
         }, LV: function () {
             var _btn = $('#video-btn');
