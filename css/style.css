@@ -7277,11 +7277,11 @@ to {
     padding-top:30px;
     box-shadow:0 10px 30px 0 rgba(0,0,0,.4)
 }
-.hljs-ln-line span::-moz-selection,.hljs-ln-line::-moz-selection {
+.highlight .line span::-moz-selection,.line::-moz-selection {
     background:#fff;
     color:#21252b
 }
-.hljs-ln-line span::selection,.hljs-ln-line::selection {
+.highlight .line span::-moz-selection,.line::-moz-selection {
     background:#fff;
     color:#21252b
 }
@@ -7380,7 +7380,7 @@ to {
 .hljs-ln {
     margin:6px 0 0 0 !important
 }
-td.hljs-ln-numbers {
+.highlight td.numbers {
     -webkit-touch-callout:none;
     -webkit-user-select:none;
     -khtml-user-select:none;
@@ -7396,11 +7396,11 @@ td.hljs-ln-numbers {
     left:0;
     width:30px
 }
-.hljs-ln-code .hljs-ln-line {
+.highlight .code .line {
     margin-left:25px;
     padding-left:5px
 }
-.hljs-ln-code .hljs-ln-line:hover {
+.highlight .code .line:hover {
     background-color:rgba(255,255,255,.1)
 }
 .code-block-fullscreen {
