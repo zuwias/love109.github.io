@@ -33,14 +33,14 @@ html {
 }
 body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
-    color: #FF69B4;
+    color: #3594cb;
 }
 a {
     color: #47a3da;
     text-decoration: none;
 }
 a:hover {
-    color: #FF0000;
+    color: #46a4da;
 }
 .main,
 .container > header {
@@ -62,10 +62,9 @@ a:hover {
 .container > header > span {
     display: block;
     position: relative;
-    z-index: 9999;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.3em;
     padding: 0 0 0.6em 0.1em;
 }
 .container > header > span span:after {
@@ -147,7 +146,7 @@ a:hover {
         margin: 0 auto;
     }
     .container > header > span {
-        text-indent: 30px;
+        text-indent: 0;
     }
 }
 @font-face {
@@ -173,7 +172,7 @@ a:hover {
     top: 0;
     bottom: 0;
     width: 10px;
-    background: #FF69B4;
+    background: #6cbfee;
     left: 20%;
     margin-left: -10px;
 }
@@ -193,21 +192,21 @@ a:hover {
     text-align: right;
 }
 .cbp_tmtimeline > li .cbp_tmtime span:first-child {
-    font-size: 0.9em;
-    color: #FF0000;
+    font-size: 1.2em;
+    color: #bdd0db;
 }
 .cbp_tmtimeline > li .cbp_tmtime span:last-child {
     font-size: 2.9em;
-    color: #FF69B4;
+    color: #3594cb;
 }
 .cbp_tmtimeline > li:nth-child(odd) .cbp_tmtime span:last-child {
     /* Right content */
     
-    color: #FF69E4;
+    color: #6cbfee;
 }
 .cbp_tmtimeline > li .cbp_tmlabel {
     margin: 0 0 15px 25%;
-    background: #FF69B4;
+    background: #3594cb;
     color: #fff;
     padding: 2em;
     font-size: 1.2em;
@@ -217,7 +216,7 @@ a:hover {
     border-radius: 5px;
 }
 .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel {
-    background: #FF69E4;
+    background: #6cbfee;
 }
 .cbp_tmtimeline > li .cbp_tmlabel h2 {
     margin-top: 0px;
@@ -234,7 +233,7 @@ a:hover {
     width: 0;
     position: absolute;
     pointer-events: none;
-    border-right-color: #FF69E4;
+    border-right-color: #6cbfee;
     border-width: 10px;
     top: 10px;
 }
@@ -252,9 +251,9 @@ a:hover {
     -webkit-font-smoothing: antialiased;
     position: absolute;
     color: #fff;
-    background: #FF0000;
+    background: #46a4da;
     border-radius: 50%;
-    box-shadow: 0 0 0 8px #FF69B4;
+    box-shadow: 0 0 0 8px #afdcf8;
     text-align: center;
     left: 20%;
     top: 0;
@@ -287,12 +286,12 @@ a:hover {
         right: auto;
         left: 20px;
         border-right-color: transparent;
-        border-bottom-color: #FF69B4;
+        border-bottom-color: #3594cb;
         top: -20px;
     }
     .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
         border-right-color: transparent;
-        border-bottom-color: #FF69E4;
+        border-bottom-color: #6cbfee;
     }
     .cbp_tmtimeline > li .cbp_tmicon {
         position: relative;

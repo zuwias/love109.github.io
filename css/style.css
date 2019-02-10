@@ -6927,7 +6927,8 @@ to {
     background:#bebebe;
     transiton-property:width,background;
     transition-duration:1s,1s;
-    z-index:99999
+    z-index:99999;
+    background: #9B30FF !important
 }
 #footer-sponsor {
     font-size:9px
