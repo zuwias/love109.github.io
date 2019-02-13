@@ -70,7 +70,7 @@
             }
             .text {
                 position: fixed;
-                bottom: 80px;
+                bottom: 20px;
                 text-align: center;
                 width: 100%;
                 font-weight: bold;
@@ -92,10 +92,8 @@
         <img src="https://love109.cn/images/love109.jpg" id="logo">
     </div>
     <canvas class="canvas" width="1820" height="905"></canvas>
-    <p class="text" style="color: #ed3073;">
-        We've been in love for
-        <br>
-        <span id="span_dt_dt"></span>
+    <p class="text" style="color: #ed3073;">我们已经相爱了
+    <span id="span_dt_dt"></span><br>请在电脑端浏览本页😘
     </p>
     <script language="javascript">
         function show_date_time() {
@@ -113,7 +111,7 @@
             e_minsold = (e_hrsold - hrsold) * 60;
             minsold = Math.floor((e_hrsold - hrsold) * 60);
             seconds = Math.floor((e_minsold - minsold) * 60);
-            span_dt_dt.innerHTML = daysold + " days " + hrsold + " hours " + minsold + " minutes " + seconds + " seconds ";
+            span_dt_dt.innerHTML = daysold + " 天 " + hrsold + " 小时 " + minsold + " 分 " + seconds + " 秒 ";
         }
         show_date_time();
     </script>
