@@ -1083,8 +1083,17 @@ var home = location.href,
                     appId: mashiro_option.v_appId,
                     appKey: mashiro_option.v_appKey,
                     path: window.location.pathname,
-                    placeholder: "你是我一生只会遇见一次的惊喜 ..."
+                    placeholder: "你是我一生只会遇见一次的惊喜❤️ ..."
                 })
+            }
+        },
+        MJ: function () {
+            if (mashiro_option.mathjax == '1') {
+                $.getScript("//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML", function() {
+                    MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+                    var math = document.getElementsByClassName("entry-content")[0];
+                    MathJax.Hub.Queue(["Typeset",MathJax.Hub,math]);
+                });
             }
         },
         MN: function () {
@@ -1513,6 +1522,7 @@ $(function () {
             Siren.PE();
             Siren.CE();
             Siren.VA();
+            Siren.MJ();
             if (mashiro_option.NProgressON) NProgress.done();
             mashiro_global.ini.pjax();
             $("#loading").fadeOut(500);
