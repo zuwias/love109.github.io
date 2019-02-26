@@ -2027,7 +2027,7 @@ i.iconfont.hotpost {
 }
 .site-info {
     text-align:center;
-    font-size:13px;
+    font-size:14px;
     color:#FFFFFF
 }
 .site-info a {
@@ -3826,6 +3826,7 @@ li.feature-2 {
     transform:translateY(0)
 }
 .notice {
+    text-align:center;
     padding:20px;
     border:1px dashed #e6e6e6;
     color:#969696;
@@ -3836,7 +3837,7 @@ li.feature-2 {
     border-radius:10px
 }
 .notice i {
-    float:left;
+    /*float:center;*/
     color:#999;
     font-size:18px;
     padding-right:10px
