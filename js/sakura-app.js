@@ -554,16 +554,19 @@ $(document).ready(function () {
 });
 
 function nextBG() {
-    $(".centerbg").css("background-image", 'url("/images/cover/(' + Math.abs(bgn%8) + ').jpg.webp")');
-    bgn = bgn + 1;
+    bgindex = bgindex + 1;
+    console.log(bg[Math.abs(bgindex%bg.length)]);
+    $(".centerbg").css("background-image", 'url("' + bg[Math.abs(bgindex%bg.length)]+ '")');
 }
 
 function preBG() {
-    bgn = bgn - 1;
-    $(".centerbg").css("background-image", 'url("/images/cover/(' + Math.abs(bgn%8) + ').jpg.webp")');
+    bgindex = bgindex - 1;
+    console.log(bg[Math.abs(bgindex%bg.length)]);
+    $(".centerbg").css("background-image", 'url("' + bg[Math.abs(bgindex%bg.length)]+ '")');
 }
 $(document).ready(function () {
-    $(".centerbg").css("background-image", 'url("/images/cover/(' + bgn + ').jpg.webp")');
+    var bgindex = Math.floor(Math.random()*bg.length);
+    $(".centerbg").css("background-image", 'url("' + bg[bgindex]+ '")');
     $("#bg-next").click(function () {
         nextBG();
     });
@@ -1075,6 +1078,16 @@ mashiro_global.ini.normalize();
 var home = location.href,
     s = $('#bgvideo')[0],
     Siren = {
+        AB: function() {
+            console.log(window.location.pathname)
+            if (window.location.pathname.indexOf("about") > -1) {
+                $.getScript("//cdn.jsdelivr.net/vue/latest/vue.min.js", function() {
+                    $.getScript("//unpkg.com/botui/build/botui.min.js", function() {
+                        bot_ui_ini();
+                    });
+                });
+            }
+        },
         VA: function () {
             if (!valine) {
                 var valine = new Valine();
@@ -1523,6 +1536,7 @@ $(function () {
             Siren.CE();
             Siren.VA();
             Siren.MJ();
+            Siren.AB();
             if (mashiro_option.NProgressON) NProgress.done();
             mashiro_global.ini.pjax();
             $("#loading").fadeOut(500);
