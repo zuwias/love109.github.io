@@ -1096,7 +1096,7 @@ var home = location.href,
                     appId: mashiro_option.v_appId,
                     appKey: mashiro_option.v_appKey,
                     path: window.location.pathname,
-                    placeholder: "你是我一生只会遇见一次的惊喜❤️ ..."
+                    placeholder: "留言前请在上方填写您的昵称和邮箱以便接收回复哦❤️"
                 })
             }
         },
