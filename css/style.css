@@ -852,11 +852,15 @@ dfn,cite,em,i {
     font-style:italic
 }
 blockquote {
+    margin-left:1em;margin-right:1em;padding:.25em 1em;color:#666;border-left: 1em solid#FF69B4
+}
+/*引用样式为引号*/
+/*
+blockquote {
     margin:0;
     padding:30px 60px;
     position:relative
 }
-/*引用颜色*/
 blockquote:before {
     content:"\f10d" !important;
     font-size:3rem;
@@ -874,7 +878,7 @@ blockquote:after {
     right:-5px;
     color:#FF69B4;
     font-family:FontAwesome
-}
+}*/
 blockquote p {
     margin:5px 0
 }
