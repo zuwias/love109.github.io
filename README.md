@@ -3,9 +3,13 @@
 
 个人学习记录网站：www.itrhx.com
 
+CSDN：https://blog.csdn.net/qq_36759224
+
+Hexo 博客搭建专栏（从搭建到美化一条龙）：https://blog.csdn.net/qq_36759224/column/info/34316
+
 网站使用 [Github Pages](https://pages.github.com/) 和 [Hexo](https://hexo.io/) 搭建而成
 
-搭建教程：[《使用 Github Pages 和 Hexo 搭建自己的独立博客》](https://www.itrhx.com/2018/08/15/A02-Build-blog-with-GithubPages-and-Hexo/)
+搭建教程：[《使用 Github Pages 和 Hexo 搭建自己的独立博客》](https://www.itrhx.com/2018/08/15/A02-hexo-blog/)
 
 期待认识更多的爱情博主，欢迎前来交换友链！
 
