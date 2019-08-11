@@ -15,7 +15,7 @@ Hexo 博客搭建专栏（从搭建到美化一条龙）：https://blog.csdn.net
 
 Hugo&Hexo博客群（技术交流）：<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=83ec31083cd72bfc7a55a8a38e16aff66e5ea71b296462ff11454523ce71488a"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="Hugo&amp;Hexo博客群（技术交流）" title="Hugo&amp;Hexo博客群（技术交流）"></a>
 
-期待认识更多的爱情博主，欢迎前来交换友链！
+期待认识更多的爱情博主，欢迎前来留言交换友链！
 
 愿天下有情人终成眷属！❤️❤️❤️
 ```
