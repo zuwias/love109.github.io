@@ -1598,9 +1598,7 @@ $(function () {
     $(document).on("click", ".specsZan", function () {
         $(this).postLike();
     });
-    console.log("%c Mashiro %c", "background:#24272A; color:#ffffff", "", "https://2heng.xin/");
-    console.log("%c hojun %c", "background:#24272A; color:#ffffff", "", "https://www.hojun.cn/");
-    console.log("%c Github %c", "background:#24272A; color:#ffffff", "", "https://github.com/honjun/hexo-theme-sakura");
+    console.log('\n %c LOVE109❤️纪实小屋 %c https://www.love109.cn/ %c 愁啥呢？还不快来交换友链！\n','color: #ffffff; background: #ff69b4; padding:5px 0;','background: #9B30FF; padding:5px 0;','color: #ffffff; background: #ff69b4; padding:5px 0;');
 });
 var isWebkit = navigator.userAgent.toLowerCase().indexOf('webkit') > -1,
     isOpera = navigator.userAgent.toLowerCase().indexOf('opera') > -1,
