@@ -2024,7 +2024,7 @@ i.iconfont.hotpost {
 /*网站底部*/
 .site-footer {
     padding:2%;
-    background:#FF69B4;
+    /*background:#FF69B4;*/
     /*max-width:800px;*/
     margin-left:auto;
     margin-right:auto
@@ -2032,13 +2032,13 @@ i.iconfont.hotpost {
 .site-info {
     text-align:center;
     font-size:14px;
-    color:#FFFFFF
+    color:#666666
 }
 .site-info a {
-    color:#FFFFFF
+    color:#666666
 }
 .site-info a:hover {
-    color:#9B30FF
+    color:#000000
 }
 .footertext p {
     margin-bottom:8px
@@ -6952,7 +6952,7 @@ to {
     background: #9B30FF !important
 }
 #footer-sponsor {
-    font-size:9px
+    font-size:13px
 }
 @media(max-width:860px) {
     #footer-sponsor {
