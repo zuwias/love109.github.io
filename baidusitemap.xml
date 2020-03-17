@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://www.love109.cn/welcome/</loc>
+    <lastmod>2020-03-17</lastmod>
+  </url>  <url>
     <loc>https://www.love109.cn/in-love/</loc>
     <lastmod>2019-07-31</lastmod>
   </url>  <url>
@@ -8,9 +11,6 @@
     <lastmod>2019-07-31</lastmod>
   </url>  <url>
     <loc>https://www.love109.cn/2019.4.5/</loc>
-    <lastmod>2019-07-31</lastmod>
-  </url>  <url>
-    <loc>https://www.love109.cn/welcome/</loc>
     <lastmod>2019-07-31</lastmod>
   </url>  <url>
     <loc>https://www.love109.cn/21-birthday/</loc>
