@@ -2144,11 +2144,11 @@ i.iconfont.hotpost {
 }
 .entry-content a {
     color:#e67474;
-    text-decoration:underline dotted rgba(0,0,0,.1)
+    /*text-decoration:underline dotted rgba(0,0,0,.1)*/
 }
 .entry-content a:hover {
     color:orange;
-    text-decoration:underline orange
+    /*text-decoration:underline orange*/
 }
 h1.entry-title {
     font-size:24px;
