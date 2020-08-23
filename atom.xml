@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.love109.cn/"/>
-  <updated>2019-07-28T16:11:01.654Z</updated>
+  <updated>2020-08-23T05:43:16.950Z</updated>
   <id>https://www.love109.cn/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>云中谁寄锦书来</title>
+    <link href="https://www.love109.cn/secret-letter/"/>
+    <id>https://www.love109.cn/secret-letter/</id>
+    <published>2020-08-23T04:50:35.612Z</published>
+    <updated>2020-08-23T05:43:16.950Z</updated>
+    
+    <content type="html"><![CDATA[<p>体验阿里云云效 DevOps，2步为你的朋友、爱人定制专属密码“情书”。快来一起体验吧！</p><p>体验地址：<a href="https://developer.aliyun.com/adc/series/devops" target="_blank" rel="noopener">https://developer.aliyun.com/adc/series/devops</a></p><p><a href="https://research.devops.aliyun.com/letters/afcc6a48-eb40-43c7-84be-23b7bf0c5208" target="_blank" rel="noopener">https://research.devops.aliyun.com/letters/afcc6a48-eb40-43c7-84be-23b7bf0c5208</a></p><p>转眼在一起四年了，已经习惯了彼此，从高中相识到在一起，到现在即将熬过大学四年的异地，未来的我们，校服到婚纱，青丝到白发，学校到殿堂，天荒到地老，一直到永远！</p><pre><code class="JavaScript">// 春风十里不如你var you = function from_future_import(){};var spring = {    &#39;breezing&#39;:true,    &#39;length&#39;:10};var i = [];i.sort([spring,you])==[you,spring]</code></pre><p><img src="https://cdn.jsdelivr.net/gh/TRHX/CDN-for-love109.cn@2.0.9/images/album-us-1/003.jpg" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      体验阿里云云效 DevOps，2 步为你的朋友、爱人定制专属密码“情书”。
+    
+    </summary>
+    
+      <category term="其他" scheme="https://www.love109.cn/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+      <category term="锦书" scheme="https://www.love109.cn/tags/%E9%94%A6%E4%B9%A6/"/>
+    
+  </entry>
   
   <entry>
     <title>生日快乐！又长一岁啦！</title>
