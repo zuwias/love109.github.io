@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.love109.cn/links/index.html</loc>
+    
+    <lastmod>2020-09-10T07:55:24.216Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.love109.cn/album/index.html</loc>
     
     <lastmod>2020-09-03T12:47:30.261Z</lastmod>
@@ -117,13 +124,6 @@
     <loc>https://www.love109.cn/comment/index.html</loc>
     
     <lastmod>2020-09-02T07:41:43.556Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.love109.cn/links/index.html</loc>
-    
-    <lastmod>2020-09-02T07:20:12.311Z</lastmod>
     
   </url>
   
