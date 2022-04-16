@@ -1,0 +1,79 @@
+body {
+  background-color: RGB(236, 236, 234);
+  font-family: Helvetica Neue, Helvetica, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin: 0;
+  overflow: hidden;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.header {
+  margin-top: 2em;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.header .blog-title .logo {
+  color: #fd637d;
+  font-size: 2em;
+  font-family: "Comic Sans MS", cursive, LiSu, sans-serif;
+  text-decoration: none;
+}
+.header .menu {
+  margin: 0;
+  padding: 0;
+  color: #fd637d;
+}
+.header .menu .menu-item {
+  display: inline-block;
+  margin-right: 10px;
+}
+.header .menu .menu-item-link {
+  color: #fd637d;
+  text-decoration: none;
+}
+.header .menu .menu-item-link:hover {
+  color: #368ccb;
+}
+.date {
+  margin: 1em auto;
+  padding: 30px 50px;
+  text-align: center;
+}
+h2 {
+  font-size: 30px;
+  color: #fd637d;
+}
+.timer {
+  font-size: 30px;
+  line-height: 1.5;
+  margin: 1em 0;
+}
+.timer b {
+  color: #fd637d;
+}
+.footer-info {
+  padding: 2%;
+  background: rgba(255,255,255,0.8);
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #9e9e9e;
+  font-size: 14px;
+}
+.footer-info img {
+  width: 18px;
+  height: 18px;
+  margin-bottom: -3px;
+}
+.footer-info a {
+  color: #9e9e9e;
+  text-decoration: none;
+}
+.footer-info a:hover {
+  color: #fd637d;
+}
